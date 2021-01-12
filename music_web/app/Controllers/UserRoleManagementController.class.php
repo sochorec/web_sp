@@ -41,7 +41,7 @@ class UserRoleManagementController implements IController{
           $next_permission = (int)($_POST['next_permission']);
 
             /** načte vyskakovací zprávy s prislusnymi chybovimi hlasenimi*/
-          if ($user_id != $_SESSION["current_user_id"])
+          if ($user_id != $_SESSION["current_user_id"]){
             if($last_permission != $next_permission){
 
               $updated_user = $this->us->db->setUserPermission($user_id, $next_permission);

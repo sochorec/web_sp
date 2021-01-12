@@ -1,0 +1,39 @@
+Struktura Projektu
+
+music_web.zip
+	music_web
+		app
+			Controllers
+				IController.interface.php
+				IntroductionController.class.php
+				MyReviewController.class.php
+				SongAddController.class.php
+				SongListController.class.php
+				SongPageController.class.php
+				SongReviewController.class.php
+				UserLoginController.class.php
+				UserLogoutController.class.php
+				UserRegistrationController.class.php
+				UserRoleManagementController.class.php
+			Models
+				MyDatabase.class.php
+				UserSessions.class.php
+			Views
+				BaseTemplate.class.php
+				IntroductionTemplate.tpl.php
+				MyReviewTemplate.tpl.php
+				SongAddTemplate.tpl.php
+					SongListTemplate.tpl.php
+				SongPageTemplate.tpl.php
+				SongReviewTemplate.tpl.php
+				UserLoginTemplate.tpl.php
+				UserLogoutTemplate.tpl.php
+				UserRegistrationTemplate.tpl.php
+				UserRoleManagementTemplate.tpl.php
+			ApplicationStart.class.php
+		index.php
+		README.txt
+		Settings.inc.php
+		sochorec_web_sp_dokumentace.pdf
+		instalace_webu.pdf
+	

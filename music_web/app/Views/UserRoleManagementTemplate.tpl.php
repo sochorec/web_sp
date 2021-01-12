@@ -48,7 +48,6 @@ $tplBasic->getHTMLHeader($tplData['title'], $tplData['username'], $tplData['perm
           </form>
         </div>
       </div>
-        </div>
       <?php
     }
     }

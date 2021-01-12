@@ -56,7 +56,7 @@ class SongReviewController implements IController{
           }else{
             $user_reviews = $this->us->db->getAllReviewsFromUser($user_id);
 
-            $tplData["failure_text_review"] = "Hodnocení se nepodařilo přidat";
+            $tplData["failure_text_review"] = "K této skladbě už jste hodnocení přidal";
           }
 
         }
